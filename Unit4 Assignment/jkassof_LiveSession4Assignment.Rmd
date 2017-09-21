@@ -32,7 +32,7 @@ colnames(df)
 
 
 ### Question 2
-2Data Summary (30 points): Use your newly assigned data frame for Question 2.
+2Data Summary (30 points): Use your newly assigned data frame for Question 2.  
 a. Write an R command that gives you the column names of the data frame. Right after that, write one that counts the number of columns but not rows. Hint: The number should match one of your numbers in Question 1d for dimensions.
 ```{r}
 colnames(df)
@@ -57,19 +57,17 @@ write.csv(df, "college_all_ages.csv", row.names = FALSE)
 
 
 ### Question 3    
-Codebook (30 points):
-a. Start a new repository on GitHub for your SMU MSDS homework. On your local device, make sure there is a directory for Homework at the minimum; you are welcome to add whatever you would like to this repo in addition to your requirements here.
-b. Create a README.md file which explains the purpose of the repository, the topics included, the sources for the material you post, and contact information in case of questions. Remember, the one in the root directory should be general. You are welcome to make short READMEs for each assignment individually in other folders.
-c. In one (or more) of the nested directories, post your RMarkdown script, HTML file, and data from ‘fivethirtyeight.’ Make sure that in your README or elsewhere that you credit fivethirtyeight in some way.
-d. In your RMarkdown script, please provide the link to this GitHub so the grader can see it.
+Codebook (30 points):  
+a. Start a new repository on GitHub for your SMU MSDS homework. On your local device, make sure there is a directory for Homework at the minimum; you are welcome to add whatever you would like to this repo in addition to your requirements here.  
+b. Create a README.md file which explains the purpose of the repository, the topics included, the sources for the material you post, and contact information in case of questions. Remember, the one in the root directory should be general. You are welcome to make short READMEs for each assignment individually in other folders.  
+c. In one (or more) of the nested directories, post your RMarkdown script, HTML file, and data from ‘fivethirtyeight.’ Make sure that in your README or elsewhere that you credit fivethirtyeight in some way.  
+d. In your RMarkdown script, please provide the link to this GitHub so the grader can see it.  
 
 Github Link: https://github.com/Jkassof/dds-hw
 
 
-
-
-4. Swirl (10 points): Complete Module 15 in the R Programming course of Swirl. Copy your code/output to a separate .txt file. It does not need to be included in your RMarkdown file. The grader has requested at minimum to show the 90%-100% progress bar for the module and what output you had for it.
+### Question 4
+Swirl (10 points): Complete Module 15 in the R Programming course of Swirl. Copy your code/output to a separate .txt file. It does not need to be included in your RMarkdown file. The grader has requested at minimum to show the 90%-100% progress bar for the module and what output you had for it.
 a. Complete “15: Graphics Basics” Reminder
-To complete this assignment, please submit one RMarkdown and matching HTML file that includes questions 1-2, and a .txt file containing solely your swirl output (Question 4) at least one hour before your live session on September 27, 2017. You do not need to submit a link to your GitHub: just note where it is in your RMarkdown file. Make sure it is public!! Please submit all files at the same time; only one submission is granted.
-Good luck!
- 
+
+See "swirl15.txt"
