@@ -1,0 +1,76 @@
+
+  |=================================================================================                          |  76%
+| Let's now look at some other functions in base graphics that may be useful, starting with boxplots.
+
+...
+
+  |====================================================================================                       |  78%
+| Load the mtcars data frame.
+
+> data(mtcars)
+
+| All that practice is paying off!
+
+  |======================================================================================                     |  80%
+| Anytime that you load up a new data frame, you should explore it before using it. In the middle of a swirl lesson,
+| just type play(). This temporarily suspends the lesson (without losing the work you have already done) and allows
+| you to issue commands like dim(mtcars) and head(mtcars). Once you are done examining the data, just type nxt() and
+| the lesson will pick up where it left off.
+
+...
+
+  |========================================================================================                   |  83%
+| Look up the help page for boxplot().
+
+> ?boxplot
+
+| That's correct!
+
+  |===========================================================================================                |  85%
+| Instead of adding data columns directly as input arguments, as we did with plot(), it is often handy to pass in
+| the entire data frame. This is what the "data" argument in boxplot() allows.
+
+...
+
+  |=============================================================================================              |  87%
+| boxplot(), like many R functions, also takes a "formula" argument, generally an expression with a tilde ("~")
+| which indicates the relationship between the input variables. This allows you to enter something like mpg ~ cyl to
+| plot the relationship between cyl (number of cylinders) on the x-axis and mpg (miles per gallon) on the y-axis.
+
+...
+
+  |===============================================================================================            |  89%
+| Use boxplot() with formula = mpg ~ cyl and data = mtcars to create a box plot.
+
+> boxplot(mpg ~ cyl, data = mtcars)
+
+| You are really on a roll!
+
+  |==================================================================================================         |  91%
+| The plot shows that mpg is much lower for cars with more cylinders. Note that we can use the same set of arguments
+| that we explored with plot() above to add axis labels, titles and so on.
+
+...
+
+  |====================================================================================================       |  93%
+| When looking at a single variable, histograms are a useful tool. hist() is the associated R function. Like plot(),
+| hist() is best used by just passing in a single vector.
+
+...
+
+  |======================================================================================================     |  96%
+| Use hist() with the vector mtcars$mpg to create a histogram.
+
+> hist(mtcars$mpg)
+
+| Excellent work!
+
+  |=========================================================================================================  |  98%
+| In this lesson, you learned how to work with base graphics in R. The best place to go from here is to study the
+| ggplot2 package. If you want to explore other elements of base graphics, then this web page
+| (http://www.ling.upenn.edu/~joseff/rstudy/week4.html) provides a useful overview.
+
+...
+
+  |===========================================================================================================| 100%
+| Would you like to receive credit for completing this course on Coursera.org?
