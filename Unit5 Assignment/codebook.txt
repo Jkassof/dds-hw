@@ -1,0 +1,7 @@
+Codebook for Live Session 5 Assignment
+
+FILES
+
+jkassof_LiveSession5Assignment.Rmd - The rmarkdown source file for my homework 5 assignment
+jkassof_LiveSession5Assignment.html - The knitted HTML document of homework 5 
+itsagirl.csv - contains the name and total babies given that name for the top 10 girls names for 2015 and 2016 combined
