@@ -99,3 +99,5 @@ write.csv(export_data, file = "itsagirl.csv", row.names = FALSE)
 ### Question 4 Upload to GitHub (10 points)
 
 Push at minimum your RMarkdown for this homework assignment and a Readme file with Codebook to one of your GitHub repositories (you might place this in a Homework repo like last week). It does not have to be too detailed. The Codebook should contain a short definition of each object you create. You are welcome and encouraged to add other files—just make sure you have a description and directions that are helpful for the grader.
+
+Link to HW repo: https://github.com/Jkassof/dds-hw/tree/master/Unit5%20Assignment

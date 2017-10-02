@@ -179,11 +179,12 @@ $(document).ready(function () {
 ## 33061  Zykir   M       5
 ## 33062  Zyrus   M       5
 ## 33063   Zyus   M       5</code></pre>
-<p>Something intersting about these ten rows would be that I have never seen or heard of any of these names. With only 5 people a year using the name, maybe that isn’t too surprising.</p>
+<p>Something intersting about these ten rows would be that I have never seen or heard of any of these names. With only 5 people a year using the name, maybe that isn’t too surprising. Also all these names are males, are boys more likely to have rare names?</p>
 <ol start="3" style="list-style-type: lower-alpha">
 <li>Merge y2016 and y2015 by your Name column; assign it to final. The client only cares about names that have data for both 2016 and 2015; there should be no NA values in either of your amount of children rows after merging.</li>
 </ol>
-<pre class="r"><code># The merge function by default does an inner join
+<pre class="r"><code># We will merge our data by name and sex so that the resulting dataset is still tidy
+# with each row being a unique name/sex combination and their counts for both years
 final &lt;- merge(y2016, y2015, by = c(&quot;name&quot;, &quot;sex&quot;))</code></pre>
 </div>
 <div id="question-3-data-summary-30-points" class="section level3">
@@ -233,6 +234,7 @@ write.csv(export_data, file = &quot;itsagirl.csv&quot;, row.names = FALSE)</code
 <div id="question-4-upload-to-github-10-points" class="section level3">
 <h3>Question 4 Upload to GitHub (10 points)</h3>
 <p>Push at minimum your RMarkdown for this homework assignment and a Readme file with Codebook to one of your GitHub repositories (you might place this in a Homework repo like last week). It does not have to be too detailed. The Codebook should contain a short definition of each object you create. You are welcome and encouraged to add other files—just make sure you have a description and directions that are helpful for the grader.</p>
+<p>Link to HW repo: <a href="https://github.com/Jkassof/dds-hw/tree/master/Unit5%20Assignment">https://github.com/Jkassof/dds-hw/tree/master/Unit5%20Assignment</a></p>
 </div>
 
 
